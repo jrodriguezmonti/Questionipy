@@ -1,0 +1,54 @@
+# .gitignore
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Compiled LaTeX files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdfsync
+
+# Compiled Jupyter Notebook files
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Log files
+*.log
+
+# macOS files
+.DS_Store
+
+# Compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# User-specific files
+*.pyc
+*.DS_Store
+
+# IDE settings
+*.settings/
+
+# Python cache
+__pycache__/
