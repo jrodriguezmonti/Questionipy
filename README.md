@@ -99,6 +99,16 @@ python main.py
   }
 ```
 
+## ToDo
+
+This is a first alpha release with many work remaining. 
+
+Some of the big stuff:
+- CSV export support
+- Database storage of data
+- Automatic corrections
+- More and with deeper details tests
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
