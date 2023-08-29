@@ -1,0 +1,383 @@
+{
+    "questions": [
+      {
+        "type": "text",
+        "question": "Explain the concept of object-oriented programming."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is an example of a programming language?",
+        "options": ["HTML", "CSS", "Python", "JSON", "XML"],
+        "correct_answer": "Python"
+      },
+      {
+        "type": "true_false",
+        "question": "The Python programming language was named after a snake.",
+        "correct_answer": true
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are Python frameworks for web development?",
+        "options": ["Django", "Flask", "React", "Vue.js", "Angular"],
+        "correct_answers": ["Django", "Flask"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the Fibonacci sequence.",
+        "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci(n - 1) + fibonacci(n - 2)"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "x = 10\ny = 5\nz = x / y\nprint(z)",
+        "correct_output": "2.0"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the advantages of using version control systems in software development."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which programming paradigm emphasizes immutability and pure functions?",
+        "options": ["Procedural", "Object-Oriented", "Functional", "Structured", "Scripting"],
+        "correct_answer": "Functional"
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are commonly used version control systems?",
+        "options": ["Git", "Mercurial", "Subversion", "Perforce", "ClearCase"],
+        "correct_answers": ["Git", "Mercurial", "Subversion"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to reverse a string.",
+        "code": "def reverse_string(s):\n    return s[::-1]"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "numbers = [1, 2, 3, 4, 5]\nsum_result = sum(numbers)\nprint(sum_result)",
+        "correct_output": "15"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the importance of algorithms in computer science."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which programming language was created by Guido van Rossum?",
+        "options": ["Java", "Python", "C++", "Ruby", "Perl"],
+        "correct_answer": "Python"
+      },
+      {
+        "type": "true_false",
+        "question": "Object-oriented programming supports encapsulation, inheritance, and polymorphism.",
+        "correct_answer": true
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are types of software testing?",
+        "options": ["Unit testing", "Integration testing", "Agile testing", "Performance testing", "Acceptance testing"],
+        "correct_answers": ["Unit testing", "Integration testing", "Performance testing", "Acceptance testing"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to check if a number is prime.",
+        "code": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "text = \"Hello, world!\"\nprint(text.upper())",
+        "correct_output": "HELLO, WORLD!"
+      },
+      {
+        "type": "text",
+        "question": "What are the characteristics of a well-designed RESTful API?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a data structure used for storing key-value pairs?",
+        "options": ["Array", "Linked List", "Hash Map", "Stack", "Queue"],
+        "correct_answer": "Hash Map"
+      },
+      {
+        "type": "true_false",
+        "question": "A linked list is a linear data structure that stores elements in a contiguous memory block.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are benefits of using a version control system?",
+        "options": ["History tracking", "Collaboration", "Automatic bug fixes", "Code review", "Backup"],
+        "correct_answers": ["History tracking", "Collaboration", "Code review", "Backup"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to find the factorial of a non-negative integer.",
+        "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "numbers = [10, 20, 30, 40]\naverage = sum(numbers) / len(numbers)\nprint(average)",
+        "correct_output": "25.0"
+      },
+      {
+        "type": "text",
+        "question": "Explain the role of an operating system in a computer system."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+        "options": ["Queue", "Heap", "Array", "Stack", "Tree"],
+        "correct_answer": "Stack"
+      },
+      {
+        "type": "true_false",
+        "question": "C++ is an interpreted programming language.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are characteristics of a good software design?",
+        "options": ["High complexity", "Loose coupling", "Tight cohesion", "Scalability", "Minimal redundancy"],
+        "correct_answers": ["Loose coupling", "Scalability", "Minimal redundancy"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to find the greatest common divisor (GCD) of two numbers.",
+        "code": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "text = \"hello\"\nuppercase_text = text.upper()\nprint(uppercase_text)",
+        "correct_output": "HELLO"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the key differences between HTTP and HTTPS."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which data structure allows us to store elements in a sorted order?",
+        "options": ["Linked List", "Array", "Hash Map", "Binary Search Tree", "Stack"],
+        "correct_answer": "Binary Search Tree"
+      },
+      {
+        "type": "true_false",
+        "question": "Java is a purely functional programming language.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are benefits of using a version control system?",
+        "options": ["Tracking changes", "Managing code conflicts", "Automating unit tests", "Enhancing user experience", "Storing large binary files"],
+        "correct_answers": ["Tracking changes", "Managing code conflicts"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to find the square root of a number using the Newton-Raphson method.",
+        "code": "def sqrt_newton_raphson(number, epsilon=1e-6):\n    guess = number\n    while abs(guess * guess - number) >= epsilon:\n        guess = (guess + number / guess) / 2\n    return guess"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "values = [1, 2, 3]\nsum_result = sum(values)\nprint(sum_result)",
+        "correct_output": "6"
+      },
+      {
+        "type": "text",
+        "question": "Explain the concept of database normalization and its importance."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a sorting algorithm that works by repeatedly selecting the minimum element from the unsorted part of the array and putting it in the sorted part?",
+        "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort", "Quick Sort"],
+        "correct_answer": "Selection Sort"
+      },
+      {
+        "type": "true_false",
+        "question": "Python is a statically typed programming language.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are common attributes of high-quality code?",
+        "options": ["Low performance", "Readable", "Scalable", "Inefficient", "Unmaintainable"],
+        "correct_answers": ["Readable", "Scalable"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the factorial of a non-negative integer using recursion.",
+        "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "numbers = [2, 3, 4, 5, 6]\nproduct_result = 1\nfor num in numbers:\n    product_result *= num\nprint(product_result)",
+        "correct_output": "720"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the advantages and disadvantages of using NoSQL databases compared to traditional relational databases."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a fundamental principle of object-oriented programming?",
+        "options": ["Abstraction", "Global variables", "Code duplication", "Monolithic architecture", "Linear programming"],
+        "correct_answer": "Abstraction"
+      },
+      {
+        "type": "true_false",
+        "question": "A stack data structure follows the First-In-First-Out (FIFO) principle.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are benefits of using a version control system?",
+        "options": ["Easy debugging", "History tracking", "Enhancing code quality", "Automatic code deployment", "Faster development"],
+        "correct_answers": ["History tracking", "Enhancing code quality", "Faster development"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the factorial of a non-negative integer without using recursion.",
+        "code": "def factorial(n):\n    result = 1\n    for i in range(1, n + 1):\n        result *= i\n    return result"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "string = \"Hello\"\nnew_string = string + \" world!\"\nprint(new_string)",
+        "correct_output": "Hello world!"
+      },
+      {
+        "type": "text",
+        "question": "Explain the concept of data encapsulation in object-oriented programming."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a popular relational database management system?",
+        "options": ["MongoDB", "Redis", "Cassandra", "SQLite", "Elasticsearch"],
+        "correct_answer": "SQLite"
+      },
+      {
+        "type": "true_false",
+        "question": "Inheritance allows a subclass to inherit attributes and behaviors from multiple superclasses.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are key aspects of agile software development?",
+        "options": ["Heavy documentation", "Predictive planning", "Adaptive planning", "Rigidity", "Collaborative teams"],
+        "correct_answers": ["Adaptive planning", "Collaborative teams"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to find the factorial of a non-negative integer using a while loop.",
+        "code": "def factorial(n):\n    result = 1\n    while n > 0:\n        result *= n\n        n -= 1\n    return result"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "values = [1, 2, 3]\nproduct_result = 1\nfor val in values:\n    product_result *= val\nprint(product_result)",
+        "correct_output": "6"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the concept of time complexity in algorithm analysis."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a technique used to reduce the risk of software development failure?",
+        "options": ["Code duplication", "Version control", "Ignoring user feedback", "Creating a monolithic system", "Relying solely on manual testing"],
+        "correct_answer": "Version control"
+      },
+      {
+        "type": "true_false",
+        "question": "Polymorphism is a feature that allows a class to inherit attributes and behaviors from multiple other classes.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are reasons for using version control systems in software development?",
+        "options": ["Enforcing strict coding standards", "Facilitating code collaboration", "Maintaining a record of changes", "Automating software testing", "Ensuring code correctness"],
+        "correct_answers": ["Facilitating code collaboration", "Maintaining a record of changes"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the power of a number using exponentiation.",
+        "code": "def power(base, exponent):\n    result = 1\n    for _ in range(exponent):\n        result *= base\n    return result"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "text = \"Hello\"\nlength = len(text)\nprint(length)",
+        "correct_output": "5"
+      },
+      {
+        "type": "text",
+        "question": "Explain the concept of method overloading in object-oriented programming."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a common use case for a binary search algorithm?",
+        "options": ["Sorting an array of integers", "Searching for a specific element in a sorted array", "Reversing an array", "Shuffling an array randomly", "Finding the maximum element in an array"],
+        "correct_answer": "Searching for a specific element in a sorted array"
+      },
+      {
+        "type": "true_false",
+        "question": "Inheritance allows a subclass to override attributes and behaviors inherited from its superclass.",
+        "correct_answer": true
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are key principles of the Agile Manifesto?",
+        "options": ["Heavy documentation", "Contract negotiation", "Individuals and interactions over processes and tools", "Comprehensive project plan", "Working software over comprehensive documentation"],
+        "correct_answers": ["Individuals and interactions over processes and tools", "Working software over comprehensive documentation"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the factorial of a non-negative integer using recursion.",
+        "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "numbers = [2, 3, 4]\nsum_result = sum(numbers)\nprint(sum_result)",
+        "correct_output": "9"
+      },
+      {
+        "type": "text",
+        "question": "Discuss the concept of space complexity in algorithm analysis."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a software design pattern that separates the creation of objects from their usage?",
+        "options": ["Observer", "Factory", "Decorator", "Singleton", "Facade"],
+        "correct_answer": "Factory"
+      },
+      {
+        "type": "true_false",
+        "question": "A hash map data structure allows elements to be stored in a sorted order.",
+        "correct_answer": false
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are key benefits of pair programming?",
+        "options": ["Reduced development time", "Increased code quality", "Limited communication", "Enhanced team collaboration", "Higher bug density"],
+        "correct_answers": ["Reduced development time", "Increased code quality", "Enhanced team collaboration"]
+      },
+      {
+        "type": "code",
+        "question": "Write a Python function to calculate the power of a number using recursion.",
+        "code": "def power(base, exponent):\n    if exponent == 0:\n        return 1\n    else:\n        return base * power(base, exponent - 1)"
+      },
+      {
+        "type": "code_evaluation",
+        "question": "What is the output of the following code?",
+        "code": "text = \"Hello\"\nsubstring = text[1:4]\nprint(substring)",
+        "correct_output": "ell"
+      }
+    ]
+  }

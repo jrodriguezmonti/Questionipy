@@ -1,0 +1,7 @@
+{
+    "max_chars_per_page": 2000,
+    "num_students": 10,
+    "desired_questions_per_exam": 20,
+    "exam_title": "First Quarter Exam",
+    "course_name": "Data Structures and Algorithms by Larry David"
+}
