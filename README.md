@@ -61,6 +61,44 @@ python main.py
 }
 ```
 
+- ## Pool of questions
+
+- You can find the following JSON File with the pool of questions to feed Questionipy:
+
+```json
+{
+    "questions": [
+      {
+        "type": "text",
+        "question": "Explain the concept of object-oriented programming."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is an example of a programming language?",
+        "options": ["HTML", "CSS", "Python", "JSON", "XML"],
+        "correct_answer": "Python"
+      },
+      {
+        "type": "true_false",
+        "question": "The Python programming language was named after a snake.",
+        "correct_answer": true
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are Python frameworks for web development?",
+        "options": ["Django", "Flask", "React", "Vue.js", "Angular"],
+        "correct_answers": ["Django", "Flask"]
+      },
+      {
+        "type": "multi_select",
+        "question": "Which of the following are key benefits of pair programming?",
+        "options": ["Reduced development time", "Increased code quality", "Limited communication", "Enhanced team collaboration", "Higher bug density"],
+        "correct_answers": ["Reduced development time", "Increased code quality", "Enhanced team collaboration"]
+      }
+    ]
+  }
+```
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
