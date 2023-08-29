@@ -1,6 +1,5 @@
 # Questionipy
-An exam-assignment generator designed with Python and data feed with JSON. It is able to generate random questions, take a set of already defined questions and generate all the needed examen for a course. To make easier designing different examen for lots of people, and then revising them.
-Questionipy is a Python application that allows you to create customized exams from a pool of questions and generate PDF files of the exams for students to take.
+Questionipy is a Python application designed to facilitate exam and assignment generation. Powered by JSON data feeds, it can randomly generate questions or utilize pre-defined ones to create comprehensive exams for educational courses. This tool streamlines the process of crafting varied exams for multiple individuals, simplifying both design and review. With Questionipy, you can effortlessly customize exams from a diverse question pool and effortlessly produce PDF files that students can use for assessments.
 
 ## Features
 
